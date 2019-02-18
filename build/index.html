@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="description" content="Описание страницы менее 150 символов">
+
+	<!-- - Стандартный значок - -->
+	<!-- <link rel="icon" type="image/x-icon" href="/name.ico"> -->
+  <!-- - Рекомендуемый формат favicon - -->
+	<!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
+
+	<!-- <! - Значок Apple Touch (не менее 200x200px) -> -->
+	<!-- <link rel="apple-touch-icon" href="/custom-icon.png"> -->
+
+	<!-- <! - Чтобы запустить веб-приложение в полноэкранном режиме -> -->
+	<!-- <meta name="apple-mobile-web-app-able" content="yes"> -->
+
+	<!-- <! - Стиль строки состояния (см. Поддерживаемые метатеги ниже для доступных значений) -> -->
+	<!-- <! - Не действует, если у вас нет предыдущего метатега -> -->
+	<!-- <meta name="apple-mobile-web-app-status-bar-style"content="black"> -->
+
+	<link rel="preload" href="fonts/.woff2" as="font">
+	<link rel="preload" href="fonts/.woff2" as="font">
+	<link rel="preload" href="fonts/.woff2" as="font">
+	<link rel="preload" href="fonts/.woff2" as="font">
+
+	<link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+
+<header class="main-header">
+	<div class="container">						
+		<nav class="main-header__nav main-nav">
+			<button class="main-nav__burger" aria-label="Burger menu">
+				<i class="fa fa-bars"></i>
+			</button>
+
+			<ul class="main-nav__list">
+				<li class="main-nav__item">
+					<a class="main-nav__link" href="">Услуги</a>
+				</li>
+
+				<li class="main-nav__item main-nav__item--active">
+					<a class="main-nav__link" href="">Портфолио</a>
+				</li>
+
+				<li class="main-nav__item">
+					<a class="main-nav__link" href="">Стоимость</a>
+				</li>	
+			</ul>
+		</nav>
+
+		<div class="main-header__contacts header-contacts">				
+			<a class="header-contacts__link" href="tel:+74995666655">
+				+7 (499) 566-66-55
+			</a>
+
+			<button class="btn btn--call-order header-contacts__call-order">
+				<i class="fa fa-phone"></i>Заказать звонок
+			</button>
+		</div>		
+	</div>
+</header>
+
+
+	<main>
+		<div class="overlay"></div>
+
+		<div class="popup-window">
+			<h2>Оставить заявку:</h2>
+				<form name="request" method="post" action="server.html" enctype="multipart/form-data">
+					<fieldset>
+						<legend class="visually-hidden">Контактные данные</legend>
+
+						<label for="fullname">*Фамилия, имя, отчество:</label><br>
+						<input id="fullname" name="fullname" size="60" type="text" value="" placeholder="Введите ваше имя" required=""><br>
+
+						<label for="adress">*Адрес электронной почты:</label><br>
+						<input id="adress" name="adress" size="60" type="email" value="" placeholder="example@mail.ru" required=""><br>	
+
+						<label for="tel">Телефон:</label><br>
+						<input id="tel" name="tel" size="60" type="tel" value="" placeholder="88002000600"><br>		
+					</fieldset>
+
+					<fieldset>
+						<legend class="visually-hidden">Данные заявки:</legend>
+
+						<label for="topic">*Характер вопроса:</label><br>
+						<input id="topic" name="topic" size="60" type="text" value="" placeholder="Не более 50 символов" required=""><br>
+
+						<label for="content">*Описание вопроса (не более 1000 символов):</label><br>
+						<textarea id="content" cols="60" rows="10" required="" placeholder="Не более 1000 символов"></textarea><br>
+
+						<label for="attachment">Файл приложение к письму:</label><br> 
+						<input id="attachment" type="file" name="attachment">
+					</fieldset>
+
+					<input class="btn btn--send" type="submit" name="submit" value="Отправить">
+				</form>	
+		</div>
+
+		<div class="popup_img">
+			<div class="img__panel">
+				<h2></h2>
+				<button class="img__close" aria-label="Burger menu">
+					<i class="fa fa-times"></i>
+				</button>
+			</div>	
+			<img src="img/work1.jpg" alt="Сайт психолога Веры Антоновой" title="MyJob">	
+			<button class="img_prev"><<</button>
+			<button class="img_next">>></button>
+		</div>		
+
+		<section class="primary-info">
+			<div class="gradient-background">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="600px" viewBox="0 0 595.28 841.89" enable-background="new 0 0 595.28 841.89" xml:space="preserve">
+					<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="152.9775" y1="794.1377" x2="437.7457" y2="11.7436">
+						<stop offset="0" style="stop-color:#FABA70"></stop>
+						<stop offset="0.0338" style="stop-color:#F9B473"></stop>
+						<stop offset="0.2857" style="stop-color:#F48A84"></stop>
+						<stop offset="0.5172" style="stop-color:#F0658A"></stop>
+						<stop offset="0.7208" style="stop-color:#EE418B"></stop>
+						<stop offset="0.8887" style="stop-color:#ED1C8B"></stop>
+						<stop offset="1" style="stop-color:#EC008C"></stop>
+					</linearGradient>
+
+					<path fill="url(#SVGID_1_)" d="M635.277,129.809c0,0-104.91-116.721-247.033-120.663c-263.026-7.296-581.81,412.194-565.152,568.52
+					c23.104,216.819,481.366,193.421,537.747,185.98c183.802-24.254,274.438-123.778,274.438-123.778V129.809z"></path>
+				</svg>
+			</div>	
+
+			<div class="top-flytags">
+				<span class="top-flytags__item top-flytags__item--1">#</span>
+
+				<span class="top-flytags__item top-flytags__item--2">
+					&#60;&nbsp;div&nbsp;&#62;
+				</span>
+
+				<pre class="top-flytags__item top-flytags__item--3">
+					&#60;&nbsp;div&nbsp;&#62;
+				</pre>
+
+				<span class="top-flytags__item top-flytags__item--4">{&nbsp;}</span>
+
+				<span class="top-flytags__item top-flytags__item--5">
+					&#60;&nbsp;/&nbsp;&#62;					
+				</span>
+
+				<span class="top-flytags__item top-flytags__item--6">
+					&#60;&nbsp;/&nbsp;&#62;					
+				</span>
+			</div>
+
+			<div class="container banner">				
+				<div class="banner__text-content">
+					<h1 class="banner__title">Паладина Евгения</h1>
+
+					<p class="banner__subtitle">Frontend-разработчик и веб-верстальщик</p>
+
+					<button class="btn btn--know-more banner__more-btn">Узнать больше</button>
+				</div>
+				
+				<div class="banner__img-container">
+					<img class="banner__img" src="img/port.png" alt="Паладина Евгения - веб-верстальщик" title="MyFace">
+				</div>				
+			</div>	
+		</section>
+
+		<section class="service">
+			<div class="container">
+				<h2 class="section-title service__title">Что я делаю</h2>
+
+				<ul class="service__list">
+					<li class="service__item">
+						<p>Верстка лендинг-страниц и&nbsp;сайтов&nbsp;любой сложности</p>
+					</li>
+
+					<li class="service__item">
+						<p>Адаптивная верстка под все браузеры и устройства</p>
+					</li>
+
+					<li class="service__item">
+						<p>Frontend-разработка и программирвоание</p>
+					</li>
+
+					<li class="service__item">
+						<p>Исправление и доработка существующей верстки</p>
+					</li>
+				</ul>
+
+				<button class="btn btn--know-more service__button">Узнать стоимость</button>
+			</div>
+		</section>	
+
+		<section class="portfolio">
+			<div class="container">				
+				<h2 class="section-title portfolio__title">Примеры моих работ</h2>
+
+				<div class="portfolio__slider slider">
+					<div class="slider__content">
+						<div class="slider__slide slide">
+							<figure class="slide__image slide__image--psy">								
+								<img src="img/work1.jpg" alt="Сайт психолога Веры Антоновой" title="MyJob">			
+
+								<figcaption class="slide__title">
+									Сайт психолога Веры Антоновой
+								</figcaption>
+							</figure>	
+						</div>	
+
+						<div class="slider__slide slide">
+							<figure class="slide__image slide__image--baby">
+								<img src="img/work2.jpg" alt="Сайт детского магазина" title="MyJob">
+
+								<figcaption class="slide__title">
+									Сайт детского магазина
+								</figcaption>
+							</figure>
+						</div>
+
+						<div class="slider__slide slide">
+							<figure class="slide__image slide__image--fisher">
+								<img src="img/work3.jpg" alt="Сайт рыбаков и рыбок" title="MyJob">
+
+								<figcaption class="slide__title">
+									Сайт рыбаков и рыбок
+								</figcaption>
+							</figure>
+						</div>
+
+						<div class="slider__slide slide">
+							<figure class="slide__image slide__image--fisher">
+								<img src="img/work3.jpg" alt="Четвертый слайд" title="MyJob">
+
+								<figcaption class="slide__title">
+									Четвертый слайд
+								</figcaption>
+							</figure>
+						</div>
+
+						<div class="slider__slide slide">
+							<figure class="slide__image slide__image--fisher">
+								<img src="img/work3.jpg" alt="Пятый слайд" title="MyJob">
+
+								<figcaption class="slide__title">
+									Пятый слайд
+								</figcaption>
+							</figure>
+						</div>
+					</div>	
+
+					<button class="slider-nav__btn slider-nav__btn--left" area-label="Slider navigation"></button>
+
+					<button class="slider-nav__btn slider-nav__btn--right" area-label="Slider navigation"></button>
+				</div>	
+
+				<!--Paginator-->
+
+				<button class="btn btn--know-more potfolio__button">Заказать проект</button>	
+			</div>	
+		</section>	
+
+		<section class="advertisment">
+			<div class="bottom-flytags">
+				<span class="bottom-flytags__item bottom-flytags__item--1">#</span>
+
+				<span class="bottom-flytags__item bottom-flytags__item--2">
+					&#60;&nbsp;div&nbsp;&#62;	
+				</span>
+
+				<span class="bottom-flytags__item bottom-flytags__item--3">
+					{&nbsp;}
+				</span>
+
+				<span class="bottom-flytags__item bottom-flytags__item--4">{&nbsp;}</span>
+
+				<span class="bottom-flytags__item bottom-flytags__item--5">
+					&#60;&nbsp;/&nbsp;&#62;					
+				</span>
+			</div>	
+
+			<div class="container bottom-bunner">				
+				<h2 class="bottom-banner__title">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за 4 часа.*</h2>
+				
+				<p>
+					<small class="bottom-banner__note">
+						* Срок и стоимость могут&nbsp; отличаться от заявленных и рассчитываются  индивидуально,&nbsp;в зависимости от сложности задач.
+					</small>
+				</p>				
+			</div>	
+		</section>	
+	</main>
+
+<footer class="page-footer">
+	<div class="container">
+		<nav class="footer__nav footer-nav">
+			<ul class="footer-nav__list">
+				<li class="footer-nav__item">
+					<a class="footer-nav__link">Услуги</a>
+				</li>	
+
+				<li class="footer-nav__item">
+					<a class="footer-nav__link">Портфолио</a>
+				</li>	
+
+				<li class="footer-nav__item">	
+					<a class="footer-nav__link">Стоимость</a>
+				</li>	
+			</ul>
+		</nav>
+
+		<section class="footer__contacts footer-contacts">
+			<h2 class="footer-contacts__title visually-hidden">Контакты</h2>
+
+			<div class="footer-contacts__tel">
+				<a class="footer-contacts__link" href="tel:+74995666655">
+					<i class="fa fa-phone"></i>+7 (499) 995-77-55
+				</a>
+			</div>
+
+			<div class="footer-contacts__mail">
+				<a class="footer-contacts__link" href="mailto:eugeniya.pal@yandex.ru">
+					<i class="fa fa-envelope"></i>eugeniya.pal@yandex.ru
+				</a>
+			</div>
+		</section>
+
+		<section class="footer__social footer-social">
+			<h2 class="footer-social__title visually-hidden">Социальные сети</h2>
+
+			<button class="btn btn--call-order footer-social__order">Заказать звонок</button>
+
+			<ul class="footer-social__icons">
+				<li class="footer-social__icon footer-social__icon--vk">
+					<a aria-label="Vk.com" class="footer-social__link" href="#">
+					</a>
+				</li>	
+
+				<li class="footer-social__icon footer-social__icon--fb">
+					<a aria-label="facebook.com" class="footer-social__link" href="#">
+					</a>
+				</li>
+				
+				<li class="footer-social__icon footer-social__icon--tw">
+					<a aria-label="twitter.com" class="footer-social__link" href="#">
+					</a>
+				</li>	
+
+				<li class="footer-social__icon footer-social__icon--ins">
+					<a aria-label="instagramm.com" class="footer-social__link" href="#">
+					</a>
+				</li>	
+			</ul>	
+		</section>
+	</div>
+	<div class="copyright">
+		<small>&copy; Паладина Евгения 2018-2019</small>
+	</div>	
+</footer>
+
+
+</body>
+</html>

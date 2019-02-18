@@ -1,0 +1,3160 @@
+/* stylelint-disable*/
+
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html
+{
+    line-height: 1.15;
+    /* 1 */
+
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body
+{
+    margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1
+{
+    font-size: 2em;
+
+    margin: .67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr
+{
+    /* 1 */
+    overflow: visible;
+
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre
+{
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a
+{
+    background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title]
+{
+    /* 1 */
+            text-decoration: underline;
+            text-decoration: underline dotted;
+
+    border-bottom: none;
+    /* 2 */
+
+    -webkit-text-decoration: underline dotted;
+    /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong
+{
+    font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp
+{
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small
+{
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup
+{
+    font-size: 75%;
+    line-height: 0;
+
+    position: relative;
+
+    vertical-align: baseline;
+}
+
+sub
+{
+    bottom: -.25em;
+}
+
+sup
+{
+    top: -.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img
+{
+    border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea
+{
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+
+    margin: 0;
+    /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input
+{
+    /* 1 */
+    overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select
+{
+    /* 1 */
+    text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit']
+{
+    -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner
+{
+    padding: 0;
+
+    border-style: none;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring
+{
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset
+{
+    padding: .35em .75em .625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend
+{
+    /* 2 */
+    display: table;
+
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+
+    white-space: normal;
+    /* 1 */
+
+    color: inherit;
+    /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress
+{
+    vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea
+{
+    overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type='checkbox'],
+[type='radio']
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button
+{
+    height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type='search']
+{
+    /* 1 */
+    outline-offset: -2px;
+
+    -webkit-appearance: textfield;
+    /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type='search']::-webkit-search-decoration
+{
+    -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button
+{
+    /* 1 */
+    font: inherit;
+
+    -webkit-appearance: button;
+    /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details
+{
+    display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary
+{
+    display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template
+{
+    display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden]
+{
+    display: none;
+}
+
+html,
+body
+{
+    font-family: 'Roboto', sans-serif;
+
+    width: 100%;
+    min-width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 59px;
+
+    margin: 0;
+    padding: 0;
+}
+
+@font-face
+{
+    font-family: Roboto;
+
+    src: url('../fonts/roboto/Roboto-Light.ttf');
+    src: url('../fontsroboto/Roboto-Black.ttf');
+    src: url('../fontsroboto/Roboto-Bold.ttf');
+    src: url('../fontsroboto/Roboto-Medium.ttf');
+    src: url('../fontsroboto/Roboto-Regular.ttf');
+}
+
+@font-face
+{
+    font-family: Roboto;
+    font-weight: 900;
+
+    src: url('../fontsroboto/Roboto-Black.ttf');
+}
+
+.visually-hidden
+{
+    position: absolute;
+
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    white-space: nowrap;
+
+    border: 0;
+}
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus
+{
+    position: static;
+
+    overflow: visible;
+    clip: auto;
+
+    width: auto;
+    height: auto;
+    margin: 0;
+
+    white-space: inherit;
+}
+
+.container
+{
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 px;
+}
+
+/*стили кнопок*/
+
+.btn
+{
+    display: block;
+
+    cursor: pointer;
+}
+
+.btn--send
+{
+    font-size: 12px;
+
+    padding: 13px 47px;
+
+    color: #fff;
+    border: none;
+    background-color: #ff4e2e;
+}
+
+.btn--know-more
+{
+    font-size: 12px;
+
+    padding: 13px 47px;
+
+    color: #fff;
+    border: none;
+    background-color: #ff4e2e;
+}
+
+.btn--call-order
+{
+    font-size: 11px;
+
+    height: 30px;
+    padding: 0 30px;
+
+    color: #f53f4f;
+    border: 1px solid;
+    -o-border-image: linear-gradient(to top right, #ff8f5a, #ff2f96);
+       border-image: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
+       border-image: linear-gradient(to top right, #ff8f5a, #ff2f96);
+    border-image-slice: 1;
+    background: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
+    background: linear-gradient(to top right, #ff8f5a, #ff2f96);
+    background-color: transparent;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+/*стиль для заголовков секций*/
+
+.section-title
+{
+    font-size: 39px;
+
+    text-align: center;
+}
+
+/*класс отключения скролла*/
+
+.no-scroll
+{
+    overflow: hidden;
+}
+
+/*класс для скрытия элементов*/
+
+.visually-hidden
+{
+    position: absolute !important;
+
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+
+    border: 0 !important;
+}
+
+.container
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*шапка сайта с меню*/
+
+.main-header
+{
+    position: relative;
+    z-index: 0;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 35px;
+
+    -webkit-transition: .6s;
+            transition: .6s;
+
+    background-color: #fbfbfb;
+}
+
+.main-header .container
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+/*кнопка мобильного меню*/
+
+.main-nav__burger
+{
+    display: none;
+
+    width: 45px;
+    height: 40px;
+    margin: 4px 0 0 0;
+    padding: 0;
+
+    -webkit-transition: .6s;
+            transition: .6s;
+
+    border: none;
+    background-color: transparent;
+}
+
+.main-nav__burger i
+{
+    font-size: 35px;
+
+    display: block;
+
+    -webkit-transition: .6s;
+            transition: .6s;
+
+    color: #fa0891;
+    background: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
+    background: linear-gradient(to top right, #ff8f5a, #ff2f96);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+/*список меню*/
+
+.main-nav__list
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin: 14px 0;
+    padding-left: 0;
+}
+
+.main-nav__item
+{
+    font-size: 11px;
+
+    margin-right: 20px;
+
+    list-style: none;
+
+    text-decoration: none;
+
+    color: #000;
+}
+
+.main-nav__item--active .main-nav__link
+{
+    color: #fc557c;
+    border-bottom: 1px solid #fc557c;
+}
+
+.main-nav__link
+{
+    text-decoration: none;
+
+    color: #000;
+}
+
+/*блок с контактами и кнопкой-заказа звонка*/
+
+.main-header__contacts
+{
+    padding: 0;
+}
+
+.header-contacts
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header-contacts__call-order
+{
+    width: 149px;
+    margin-top: 7px;
+}
+
+.header-contacts__call-order i
+{
+    font-size: 11px;
+
+    display: none;
+
+    background: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
+    background: linear-gradient(to top right, #ff8f5a, #ff2f96);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.header-contacts__link
+{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+
+    margin: 14px 38px 0 0;
+    padding-top: 0;
+
+    text-decoration: none;
+
+    color: #000;
+}
+
+/*основное содержимое*/
+
+.primary-info
+{
+    position: relative;
+
+    overflow: hidden;
+
+    background-color: #fbfbfb;
+}
+
+/*фон svg градиентом*/
+
+.gradient-background
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: -250px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: visible;
+
+    width: 70%;
+    height: 550px;
+}
+
+.gradient-background svg
+{
+    right: 0;
+
+    padding: 0;
+}
+
+/*летающие теги на банере*/
+
+.top-flytags
+{
+    position: absolute;
+
+    color: #fa0891;
+}
+
+.top-flytags__item
+{
+    font-family: Roboto;
+
+    position: absolute;
+    z-index: 2;
+
+    display: block;
+
+    -webkit-transition: .6s;
+            transition: .6s;
+
+    background: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
+    background: linear-gradient(to top right, #ff8f5a, #ff2f96);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.top-flytags__item--1
+{
+    font-size: 40px;
+    font-weight: 800;
+
+    top: 165px;
+    left: 125px;
+
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    -webkit-animation: item1 1s ease-in-out;
+            animation: item1 1s ease-in-out;
+}
+
+.top-flytags__item--2
+{
+    font-size: 22px;
+    font-weight: 600;
+
+    top: 50px;
+    left: 290px;
+
+    margin: 0;
+    padding: 0;
+
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    -webkit-animation: item2 1s ease-in-out;
+            animation: item2 1s ease-in-out;
+}
+
+.top-flytags__item--3
+{
+    font-size: 25px;
+    font-weight: 600;
+
+    top: 220px;
+    left: 360px;
+
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+    -webkit-animation: item3 1s ease-in-out;
+            animation: item3 1s ease-in-out;
+}
+
+.top-flytags__item--4
+{
+    font-size: 35px;
+    font-weight: 600;
+
+    top: 0;
+    left: 45px;
+
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+    -webkit-animation: item4 1s ease-in-out;
+            animation: item4 1s ease-in-out;
+}
+
+.top-flytags__item--5
+{
+    font-size: 25px;
+    font-weight: 600;
+
+    top: 385px;
+    left: 210px;
+
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    -webkit-animation: item5 1s ease-in-out;
+            animation: item5 1s ease-in-out;
+}
+
+.top-flytags__item--6
+{
+    font-size: 25px;
+    font-weight: 600;
+
+    top: 385px;
+    left: 210px;
+
+    display: none;
+
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    -webkit-animation: item5 1s ease-in-out;
+            animation: item5 1s ease-in-out;
+}
+
+@-webkit-keyframes item1
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 40px;
+
+        top: 165px;
+        left: 125px;
+    }
+}
+
+@keyframes item1
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 40px;
+
+        top: 165px;
+        left: 125px;
+    }
+}
+
+@-webkit-keyframes item2
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 22px;
+
+        top: 50px;
+        left: 290px;
+    }
+}
+
+@keyframes item2
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 22px;
+
+        top: 50px;
+        left: 290px;
+    }
+}
+
+@-webkit-keyframes item3
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 25px;
+
+        top: 220px;
+        left: 360px;
+    }
+}
+
+@keyframes item3
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 25px;
+
+        top: 220px;
+        left: 360px;
+    }
+}
+
+@-webkit-keyframes item4
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 35px;
+
+        top: 0;
+        left: 45px;
+    }
+}
+
+@keyframes item4
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 35px;
+
+        top: 0;
+        left: 45px;
+    }
+}
+
+@-webkit-keyframes item5
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 25px;
+
+        top: 385px;
+        left: 210px;
+    }
+}
+
+@keyframes item5
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 25px;
+
+        top: 385px;
+        left: 210px;
+    }
+}
+
+/*банер с фото*/
+
+.banner
+{
+    z-index: 2;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    height: 450px;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.banner__text-content
+{
+    z-index: 2;
+
+    margin-top: 115px;
+}
+
+.banner__subtitle
+{
+    font-size: 16px;
+
+    z-index: 2;
+
+    margin-bottom: 34px;
+
+    color: #8993ad;
+}
+
+.banner__more-btn
+{
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.banner__img-container
+{
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+
+    overflow: visible;
+
+    width: 33%;
+    height: 450px;
+
+    background-color: transparent;
+}
+
+.banner__img
+{
+    bottom: 0;
+    left: 10px;
+
+    max-height: 450px;
+
+    background-color: transparent;
+}
+
+/*секция с сервисами*/
+
+.service
+{
+    padding-bottom: 73px;
+}
+
+.service__title
+{
+    margin: 0;
+    margin-bottom: 55px;
+    padding: 0;
+    padding-top: 60px;
+}
+
+.service__list
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin-bottom: 30px;
+    padding: 0;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.service__item
+{
+    font-size: 14px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    width: 24%;
+    height: 90px;
+    padding-top: 57px;
+
+    list-style: none;
+
+    text-align: center;
+
+    color: #8993ad;
+}
+
+.service__item:before
+{
+    position: absolute;
+    top: 0;
+    left: 37%;
+
+    width: 65px;
+    height: 55px;
+
+    content: '';
+
+    background: url('img/service.png') no-repeat;
+    background-size: auto 55px;
+}
+
+.service__item:first-child:before
+{
+    background-position: 0 0;
+}
+
+.service__item:nth-child(2):before
+{
+    background-position: -75px 0;
+}
+
+.service__item:nth-child(3):before
+{
+    background-position: -150px 0;
+}
+
+.service__item:nth-child(4):before
+{
+    background-position: -215px 0;
+}
+
+.service__button
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*секция с портфолио*/
+
+.portfolio
+{
+    padding-bottom: 73px;
+
+    background-color: #fbfbfb;
+}
+
+.portfolio__title
+{
+    margin: 0;
+    margin-bottom: 55px;
+    padding: 0;
+    padding-top: 60px;
+}
+
+.potfolio__button
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolio__slider
+{
+    position: relative;
+
+    margin-bottom: 45px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-left: 9px;
+}
+
+.slider__slide
+{
+    margin: 0;
+}
+
+.slide
+{
+    width: 97%;
+    margin-right: 14px;
+    padding: 0;
+}
+
+.slide__image
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    margin: 0;
+    margin-bottom: 22px;
+
+    text-align: center;
+}
+
+.slide__image img
+{
+    position: relative;
+    z-index: 2;
+
+    height: 205px;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.slide__title
+{
+    font-size: 14px;
+    font-weight: 600;
+
+    width: 100%;
+    padding-top: 20px;
+    padding-right: auto;
+    padding-left: auto;
+
+    text-align: center;
+
+    color: #8993ad;
+}
+
+.slider-nav__btn
+{
+    position: absolute;
+    z-index: 3;
+    top: 99px;
+
+    display: block;
+
+    width: 43px;
+    height: 43px;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 30px;
+    background-color: transparent;
+    background-image: url('img/arrow.png');
+    background-size: 43px 43px;
+    -webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, .1);
+            box-shadow: 0 0 15px 5px rgba(0, 0, 0, .1);
+}
+
+.slider-nav__btn--left
+{
+    left: -23px;
+}
+
+.slider-nav__btn--right
+{
+    right: -23px;
+
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.portfolio__paginator
+{
+    width: 20%;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+.paginator
+{
+    display: none;
+        flex-direction: row;
+
+    padding: 0;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.paginator__item
+{
+    list-style: none;
+}
+
+.paginator__btn
+{
+    width: 13px;
+    height: 13px;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 6px;
+    background-color: #ebebeb;
+}
+
+.paginator__btn--active
+{
+    cursor: default;
+
+    background-color: #ff4e2e;
+}
+
+/*рекламный банер*/
+
+.advertisment
+{
+    padding: 55px 0 40px 0;
+
+    color: #fff;
+    background-image: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
+    background-image: linear-gradient(to top right, #ff8f5a, #ff2f96);
+}
+
+.bottom-banner__title
+{
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 40px;
+
+    margin-top: 0;
+    margin-right: 49px;
+    margin-bottom: 22px;
+    margin-left: 79px;
+}
+
+.bottom-banner__note
+{
+    line-height: 20px;
+
+    display: block;
+
+    margin-right: 79px;
+    margin-left: 79px;
+}
+
+.bottom-flytags
+{
+    position: absolute;
+
+    opacity: .5;
+    color: #fff;
+}
+
+.bottom-flytags__item
+{
+    font-family: Roboto;
+
+    position: absolute;
+
+    display: block;
+
+    -webkit-transition: .6s;
+            transition: .6s;
+}
+
+.bottom-flytags__item--1
+{
+    font-size: 40px;
+    font-weight: 800px;
+
+    top: 115px;
+    left: 145px;
+
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    -webkit-animation: bottom-item1 1s ease-in-out;
+            animation: bottom-item1 1s ease-in-out;
+}
+
+.bottom-flytags__item--2
+{
+    font-size: 25px;
+    font-weight: 600;
+
+    top: 120px;
+    left: 730px;
+
+    margin: 0;
+    padding: 0;
+
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    -webkit-animation: bottom-item2 1s ease-in-out;
+            animation: bottom-item2 1s ease-in-out;
+}
+
+.bottom-flytags__item--3
+{
+    font-size: 35px;
+    font-weight: 600;
+
+    top: 125px;
+    left: 1205px;
+
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    -webkit-animation: bottom-item3 1s ease-in-out;
+            animation: bottom-item3 1s ease-in-out;
+}
+
+.bottom-flytags__item--4
+{
+    font-size: 30px;
+    font-weight: 600;
+
+    top: -10px;
+    left: 65px;
+
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+    -webkit-animation: bottom-item4 1s ease-in-out;
+            animation: bottom-item4 1s ease-in-out;
+}
+
+.bottom-flytags__item--5
+{
+    font-size: 25px;
+    font-weight: 400;
+
+    top: 0;
+    left: 1125px;
+
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    -webkit-animation: bottom-item5 1s ease-in-out;
+            animation: bottom-item5 1s ease-in-out;
+}
+
+@-webkit-keyframes bottom-item1
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 40px;
+
+        top: 115px;
+        left: 145px;
+    }
+}
+
+@keyframes bottom-item1
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 40px;
+
+        top: 115px;
+        left: 145px;
+    }
+}
+
+@-webkit-keyframes bottom-item2
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 25px;
+
+        top: 120px;
+        left: 730px;
+    }
+}
+
+@keyframes bottom-item2
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 25px;
+
+        top: 120px;
+        left: 730px;
+    }
+}
+
+@-webkit-keyframes bottom-item3
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 35px;
+
+        top: 125px;
+        left: 1205px;
+    }
+}
+
+@keyframes bottom-item3
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 35px;
+
+        top: 125px;
+        left: 1205px;
+    }
+}
+
+@-webkit-keyframes bottom-item4
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 30px;
+
+        top: -10px;
+        left: 65px;
+    }
+}
+
+@keyframes bottom-item4
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 30px;
+
+        top: -10px;
+        left: 65px;
+    }
+}
+
+@-webkit-keyframes bottom-item5
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 25px;
+
+        top: 0;
+        left: 1125px;
+    }
+}
+
+@keyframes bottom-item5
+{
+    from
+    {
+        font-size: 0;
+
+        top: 300px;
+        left: 500px;
+    }
+
+    to
+    {
+        font-size: 25px;
+
+        top: 0;
+        left: 1125px;
+    }
+}
+
+/*подвал*/
+
+.page-footer .container
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin-top: 60px;
+    margin-bottom: 34px;
+
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-nav__list
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+
+    list-style: none;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+}
+
+.footer-nav__item
+{
+    font-size: 13px;
+
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+
+.footer-nav__link
+{
+    cursor: pointer;
+    text-decoration: none;
+
+    color: #c8cdd9;
+}
+
+.footer__social
+{
+    padding-right: 15px;
+}
+
+.footer-social__order
+{
+    width: 175px;
+}
+
+.footer-social__icons
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin-top: 18px;
+    padding-left: 0;
+}
+
+.footer-social__icon
+{
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+
+    list-style: none;
+
+    background: url('img/social.png') no-repeat;
+    background-size: auto 20px;
+}
+
+.footer-social__icon:first-child
+{
+    cursor: pointer;
+
+    background-position: 0 0;
+}
+
+.footer-social__icon:nth-child(2)
+{
+    cursor: pointer;
+
+    background-position: -30px 0;
+}
+
+.footer-social__icon:nth-child(3)
+{
+    cursor: pointer;
+
+    background-position: -71px 0;
+}
+
+.footer-social__icon:nth-child(4)
+{
+    cursor: pointer;
+
+    background-position: -110px 0;
+}
+
+.footer-social__link
+{
+    display: block;
+
+    width: 40px;
+    height: 40px;
+}
+
+.footer__contacts
+{
+    padding-right: 50px;
+    padding-left: 160px;
+}
+
+.footer-contacts__tel,
+.footer-contacts__mail
+{
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.footer-contacts__tel
+{
+    margin-bottom: 20px;
+}
+
+.footer-contacts__link
+{
+    text-decoration: none;
+
+    color: #000;
+}
+
+.footer-contacts__tel i,
+.footer-contacts__mail i
+{
+    font-size: 14px;
+
+    margin-right: 25px;
+
+    color: #f91284;
+}
+
+.copyright
+{
+    font-size: 14px;
+
+    height: 40px;
+    padding-top: 20px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #31293c;
+}
+
+/*стили модального окна*/
+
+.overlay
+{
+    position: fixed;
+    z-index: 6;
+    top: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    -webkit-transition: .6s;
+            transition: .6s;
+
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.popup-window
+{
+    position: fixed;
+    z-index: 7;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    display: none;
+
+    width: 500px;
+    height: 650px;
+    margin: 150px auto;
+    padding: 20px;
+
+    background-color: #fff;
+}
+
+.popup_img
+{
+    position: fixed;
+    z-index: 7;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    display: none;
+
+    width: 70%;
+    height: auto;
+    margin: 50px auto;
+    padding: 10px;
+
+    background-color: #fff;
+}
+
+.popup_img img
+{
+    position: relative;
+
+    width: 100%;
+}
+
+.img__panel
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.img__panel h2
+{
+    margin: 0;
+    margin-bottom: 10px;
+
+    color: #888686;
+}
+
+.img__close
+{
+    font-size: 25px;
+
+    position: relative;
+
+    display: block;
+
+    margin-right: 0;
+    margin-left: auto;
+
+    cursor: pointer;
+
+    color: #ff4e2e;
+    border: 0;
+    background: none;
+}
+
+/*стили полей формы*/
+
+fieldset
+{
+    border: none;
+}
+
+textarea
+{
+    padding: 5px;
+
+    border: none;
+    background-color: #ebebeb;
+}
+
+input
+{
+    margin-bottom: 20px;
+    padding: 5px;
+
+    border: none;
+    background-color: #ebebeb;
+}
+
+/*media*/
+
+@media (max-width: 1199px)
+{
+    .container
+    {
+        width: 700px;
+    }
+
+    /*стили кнопок*/
+
+    .btn--call-order
+    {
+        font-size: 12px;
+
+        height: 35px;
+        padding: 0 33px;
+    }
+
+    .btn--know-more
+    {
+        font-size: 13px;
+
+        padding: 17px 60px;
+    }
+
+    /*стиль заголовков секций*/
+
+    .section-title
+    {
+        font-size: 42px;
+    }
+
+    /*шапка сайта с меню*/
+
+    .main-header
+    {
+        position: absolute;
+        z-index: 5;
+
+        height: 75px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .main-header.active
+    {
+        height: 140px;
+    }
+
+    .main-nav__list
+    {
+        position: absolute;
+        z-index: 5;
+        top: 60px;
+
+            flex-direction: column;
+
+        width: 300px;
+        height: 200px;
+        margin-right: auto;
+        margin-left: auto;
+
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    }
+
+    .main-nav__item
+    {
+        font-size: 16px;
+
+        padding-left: 8px;
+    }
+
+    .main-nav__burger
+    {
+        display: block;
+
+        width: 35px;
+    }
+
+    .main-nav__burger i
+    {
+        font-size: 30px;
+    }
+
+    .header-contacts__call-order
+    {
+        font-size: 11px;
+
+        width: 145px;
+        height: 30px;
+        margin-top: 7px;
+        margin-right: 0;
+        padding: 0 0;
+    }
+
+    .header-contacts__link
+    {
+        font-size: 20px;
+
+        margin-right: 20px;
+    }
+
+    /*секция с банером*/
+
+    .primary-info
+    {
+        position: relative;
+
+        padding-top: 80px;
+    }
+
+    /*градиентный фон*/
+
+    .gradient-background
+    {
+        top: 170px;
+        right: -270px;
+
+        width: 100%;
+        max-height: 250px;
+    }
+
+    .top-flytags__item--1
+    {
+        font-size: 45px;
+
+        top: 405px;
+        left: 45px;
+    }
+
+    .top-flytags__item--2
+    {
+        top: 20px;
+        left: 650px;
+
+        display: block;
+
+        width: 100px;
+    }
+
+    .top-flytags__item--3
+    {
+        top: 220px;
+        left: 410px;
+
+        display: block;
+
+        width: 100px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-flytags__item--4
+    {
+        font-size: 35px;
+        font-weight: 600;
+
+        top: 0;
+        left: 45px;
+
+        -webkit-transform: rotate(20deg);
+                transform: rotate(20deg);
+    }
+
+    .top-flytags__item--5
+    {
+        font-size: 25px;
+        font-weight: 600;
+
+        top: 375px;
+        left: 270px;
+
+        -webkit-transform: rotate(-30deg);
+                transform: rotate(-30deg);
+    }
+
+    .top-flytags__item--6
+    {
+        font-size: 25px;
+        font-weight: 600;
+
+        top: 85px;
+        left: 310px;
+
+        display: block;
+
+        -webkit-transform: rotate(30deg);
+                transform: rotate(30deg);
+    }
+
+    /*банер*/
+
+    .banner
+    {
+        height: 480px;
+    }
+
+    .banner__text-content
+    {
+        margin-top: 130px;
+    }
+
+    .banner__more-btn
+    {
+        width: 255px;
+    }
+
+    .banner__img-container
+    {
+        width: 40%;
+        height: 515px;
+    }
+
+    .banner__img
+    {
+        right: 0;
+        bottom: 0;
+
+        max-height: 480px;
+    }
+
+    h1
+    {
+        font-size: 43px;
+
+        margin-bottom: 10px;
+    }
+
+    .banner__subtitle
+    {
+        font-size: 20px;
+
+        margin-top: 0;
+        margin-bottom: 35px;
+        padding: 0;
+    }
+
+    /*секция с сервисами*/
+
+    .service
+    {
+        padding-bottom: 78px;
+    }
+
+    .service__title
+    {
+        margin-bottom: 65px;
+        padding-top: 62px;
+    }
+
+    .service__list
+    {
+        width: 70%;
+        margin: 0 auto 15px auto;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .service__item
+    {
+        font-size: 16px;
+
+        width: 45%;
+        margin-bottom: 25px;
+    }
+
+    .service__item p
+    {
+        font-size: 14px;
+    }
+
+    .service__item:first-child:before
+    {
+        background-position: 0 0;
+    }
+
+    .service__item:nth-child(2):before
+    {
+        background-position: -75px 0;
+    }
+
+    .service__item:nth-child(3):before
+    {
+        background-position: -150px 0;
+    }
+
+    .service__item:nth-child(4):before
+    {
+        background-position: -217px 0;
+    }
+
+    /*секция с портфолио*/
+
+    .portfolio
+    {
+        padding-bottom: 80px;
+    }
+
+    .portfolio__title
+    {
+        padding-top: 65px;
+    }
+
+    .portfolio__paginator
+    {
+        width: 13%;
+        margin-bottom: 75px;
+    }
+
+    .paginator
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .paginator__item
+    {
+        width: 12px;
+        height: 12px;
+    }
+
+    .portfolio__slider
+    {
+        margin-bottom: 70px;
+        padding-top: 18px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .slider__content
+    {
+        overflow: hidden;
+
+        height: 310px;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .slide
+    {
+        width: 96%;
+    }
+
+    .slide__image
+    {
+        width: 100%;
+        margin-bottom: 22px;
+    }
+
+    .slide__image img
+    {
+        height: 270px;
+    }
+
+    .slide__title
+    {
+        font-size: 18px;
+
+        padding-top: 13px;
+    }
+
+    .slider-nav__btn
+    {
+        display: none;
+    }
+
+    /*рекламный банер*/
+
+    .advertisment
+    {
+        padding: 53px 0 42px 0;
+    }
+
+    .bottom-banner__title
+    {
+        font-size: 32px;
+        line-height: 45px;
+
+        margin-right: 0;
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+
+    .bottom-banner__note
+    {
+        font-size: 14px;
+        line-height: 23px;
+
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .bottom-flytags__item--1
+    {
+        display: none;
+    }
+
+    .bottom-flytags__item--2
+    {
+        font-size: 20px;
+
+        top: 185px;
+        left: 400px;
+    }
+
+    .bottom-flytags__item--3
+    {
+        display: none;
+    }
+
+    .bottom-flytags__item--4
+    {
+        font-size: 25px;
+
+        top: -50px;
+        left: 115px;
+    }
+
+    .bottom-flytags__item--5
+    {
+        font-size: 25px;
+
+        top: 130px;
+        left: 300px;
+    }
+
+    /*подвал*/
+
+    .page-footer .container
+    {
+        margin-top: 75px;
+        margin-bottom: 40px;
+    }
+
+    .footer-nav__item
+    {
+        font-size: 13px;
+    }
+
+    .footer__contacts
+    {
+        padding-left: 110px;
+    }
+
+    .footer-contacts__tel
+    {
+        margin-bottom: 25px;
+    }
+
+    .footer-contacts__link i
+    {
+        margin-right: 10px;
+    }
+
+    .footer__social
+    {
+        padding-right: 0;
+    }
+
+    .footer-social__icons
+    {
+        margin-top: 22px;
+    }
+
+    .footer-social__icon
+    {
+        width: 30px;
+        height: 25px;
+
+        background-size: auto 23px;
+    }
+
+    .footer-social__icon:nth-child(2)
+    {
+        cursor: pointer;
+
+        background-position: -40px 0;
+    }
+
+    .footer-social__icon:nth-child(3)
+    {
+        cursor: pointer;
+
+        background-position: -81px 0;
+    }
+
+    .footer-social__icon:nth-child(4)
+    {
+        cursor: pointer;
+
+        background-position: -130px 0;
+    }
+
+    .footer-social__order
+    {
+        width: 170px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    h1
+    {
+        font-size: 30px;
+
+        margin-bottom: 0;
+
+        text-align: center;
+    }
+
+    .container
+    {
+        width: 300px;
+    }
+
+    /*стили кнопок*/
+
+    .btn--call-order
+    {
+        font-size: 18px;
+
+        width: 270px;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 20px 47px;
+
+        color: #fff;
+        border: none;
+        background: #ff4e2e;
+    }
+
+    .btn--know-more
+    {
+        font-size: 15px;
+
+        width: 270px;
+        height: 55px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 35px auto;
+    }
+
+    /*стиль заголовков секций*/
+
+    .section-title
+    {
+        font-size: 30px;
+    }
+
+    /*шапка сайта с меню*/
+
+    .main-header
+    {
+        position: absolute;
+        z-index: 5;
+
+        height: 40px;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        background-color: #fff;
+    }
+
+    .main-header.active
+    {
+        height: 140px;
+    }
+
+    .main-nav__list
+    {
+        position: absolute;
+        z-index: 5;
+        top: 40px;
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+            flex-direction: column;
+
+        width: 300px;
+        height: 200px;
+        margin-right: auto;
+        margin-left: auto;
+
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    }
+
+    .main-nav__item
+    {
+        font-size: 16px;
+
+        padding-left: 8px;
+    }
+
+    .main-nav__burger
+    {
+        display: block;
+    }
+
+    .main-nav__burger i
+    {
+        font-size: 25px;
+    }
+
+    .header-contacts__link
+    {
+        font-size: 18px;
+
+        margin-right: 10px;
+    }
+
+    .header-contacts__call-order
+    {
+        font-size: 0;
+
+        width: 27px;
+        height: 27px;
+        padding: 0;
+
+        text-align: center;
+
+        border: 1px solid;
+        border-color: #fa0891;
+        border-radius: 21px;
+        background-color: transparent;
+    }
+
+    .header-contacts__call-order i
+    {
+        font-size: 13px;
+
+        display: block;
+
+        margin-top: auto;
+
+        color: #fa0891;
+    }
+
+    /*блок с банером*/
+
+    .primary-info
+    {
+        position: relative;
+
+        padding-top: 35px;
+
+        background-color: #fff;
+    }
+
+    /*градиентный фон*/
+
+    .gradient-background
+    {
+        top: 70px;
+        right: auto;
+
+        overflow: hidden;
+
+        width: 100%;
+        max-height: 370px;
+    }
+
+    /*летающие теги*/
+
+    .top-flytags__item--1
+    {
+        font-size: 30px;
+
+        top: 140px;
+        left: 45px;
+    }
+
+    .top-flytags__item--2
+    {
+        font-size: 15px;
+
+        top: 85px;
+        left: 210px;
+
+        display: block;
+
+        width: 50px;
+
+        -webkit-transform: rotate(15deg);
+                transform: rotate(15deg);
+    }
+
+    .top-flytags__item--3
+    {
+        font-size: 25px;
+
+        top: 220px;
+        left: 0;
+
+        display: none;
+
+        -webkit-transform: rotate(20deg);
+                transform: rotate(20deg);
+    }
+
+    .top-flytags__item--4
+    {
+        font-size: 27px;
+
+        top: 20px;
+        left: 55px;
+
+        -webkit-transform: rotate(20deg);
+                transform: rotate(20deg);
+    }
+
+    .top-flytags__item--5
+    {
+        font-size: 18px;
+
+        top: 25px;
+        left: 190px;
+
+        -webkit-transform: rotate(-30deg);
+                transform: rotate(-30deg);
+    }
+
+    .top-flytags__item--6
+    {
+        display: none;
+    }
+
+    /*банер с фото*/
+
+    .banner
+    {
+        height: auto;
+        margin-top: 35px;
+
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
+    }
+
+    .banner__text-content
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .banner__img-container
+    {
+        overflow: visible;
+
+        width: 100%;
+        height: 370px;
+    }
+
+    .banner__img
+    {
+        z-index: 10;
+        top: 0;
+        bottom: auto;
+        left: 0;
+
+        width: auto;
+        max-height: 370px;
+
+        background-color: transparent;
+    }
+
+    .banner__subtitle
+    {
+        font-size: 16px;
+
+        margin-top: 0;
+        margin-bottom: 25px;
+        padding: 0;
+
+        text-align: center;
+    }
+
+    /*секция с сервисами*/
+
+    .service
+    {
+        position: relative;
+
+        padding-bottom: 20px;
+    }
+
+    .service__title
+    {
+        margin-bottom: 25px;
+        padding-top: 38px;
+    }
+
+    .service__list
+    {
+        margin-bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .service__item
+    {
+        font-size: 17px;
+
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .service__item:before
+    {
+        position: absolute;
+        top: 0;
+        left: 30%;
+
+        width: 70px;
+        height: 60px;
+
+        content: '';
+
+        background: url('img/service.png') no-repeat;
+        background-size: auto 60px;
+    }
+
+    .service__item p
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin: 0;
+        padding: 0;
+        padding-top: 17px;
+    }
+
+    .service__item:nth-child(2):before
+    {
+        background-position: -78px 0;
+    }
+
+    .service__item:nth-child(3):before
+    {
+        background-position: -150px 0;
+    }
+
+    .service__item:nth-child(4):before
+    {
+        background-position: -230px 0;
+    }
+
+    /*секция с портфолио*/
+
+    .portfolio
+    {
+        padding-bottom: 50px;
+    }
+
+    .portfolio__title
+    {
+        margin-bottom: 25px;
+        padding-top: 60px;
+    }
+
+    .paginator
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .paginator__item
+    {
+        width: 10px;
+        height: 10px;
+        padding: 0;
+    }
+
+    .paginator__btn
+    {
+        max-width: 10px;
+        height: 10px;
+        padding: 0;
+
+        border-radius: 5px;
+    }
+
+    .portfolio__paginator
+    {
+        width: 23%;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .portfolio__slider
+    {
+        overflow: hidden;
+
+        width: 300px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        padding-top: 15px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .slider__content
+    {
+        width: 90%;
+        height: 305px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .slide
+    {
+        width: 100%;
+    }
+
+    .slide__image
+    {
+        width: 100%;
+        height: 310px;
+        margin-bottom: 0;
+    }
+
+    .slide__image img
+    {
+        height: 240px;
+    }
+
+    .slide__title
+    {
+        font-size: 17px;
+        font-weight: 400;
+
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .slider-nav__btn
+    {
+        display: none;
+    }
+
+    /*секция с рекламой*/
+
+    .advertisment
+    {
+        padding: 35px 0 34px 0;
+    }
+
+    .bottom-flytags__item
+    {
+        top: 0;
+        left: 0;
+
+        display: none;
+    }
+
+    .bottom-banner__title
+    {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+
+        margin-right: 10px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+    }
+
+    .bottom-banner__note
+    {
+        font-size: 15px;
+        line-height: 27px;
+
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /*подвал*/
+
+    .page-footer .container
+    {
+        max-width: 280px;
+        margin: 44px auto 30px auto;
+        padding-right: 10px;
+        padding-left: 10px;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .footer-nav__list
+    {
+        padding-bottom: 5px;
+    }
+
+    .footer-nav__item
+    {
+        font-size: 15px;
+
+        margin-bottom: 15px;
+    }
+
+    .footer__contacts
+    {
+        padding-right: auto;
+        padding-left: 0;
+    }
+
+    .footer-contacts__tel
+    {
+        font-size: 19px;
+
+        padding-bottom: 0;
+
+        color: #c8cdd9;
+    }
+
+    .footer-contacts__mail
+    {
+        font-size: 17px;
+
+        padding-bottom: 10px;
+    }
+
+    .footer-contacts__link
+    {
+        color: #c8cdd9;
+    }
+
+    .footer__social
+    {
+        width: 100%;
+        padding: 0;
+        padding-top: 13px;
+    }
+
+    .footer-social__order
+    {
+        font-size: 15px;
+
+        width: 270px;
+        height: 55px;
+
+        color: #fff;
+
+        -webkit-text-fill-color: #fff;
+    }
+
+    .footer-social__icons
+    {
+        margin-top: 45px;
+    }
+
+    .footer-social__icon
+    {
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+
+        background-size: auto 30px;
+    }
+
+    .footer-social__icon:first-child
+    {
+        cursor: pointer;
+
+        background-position: 0 0;
+    }
+
+    .footer-social__icon:nth-child(2)
+    {
+        cursor: pointer;
+
+        background-position: -60px 0;
+    }
+
+    .footer-social__icon:nth-child(3)
+    {
+        cursor: pointer;
+
+        background-position: -110px 0;
+    }
+
+    .footer-social__icon:nth-child(4)
+    {
+        cursor: pointer;
+
+        background-position: -160px 0;
+    }
+
+    .copyright
+    {
+        padding-top: 15px;
+    }
+
+    /*модальное окно*/
+
+    .popup-window
+    {
+        width: 250px;
+        height: 700px;
+        margin: 150px auto;
+        padding: 5px;
+    }
+
+    /*стили полей формы*/
+
+    textarea
+    {
+        width: 96%;
+    }
+
+    input
+    {
+        width: 96%;
+        padding: 5px;
+    }
+
+    .btn--send
+    {
+        width: 100%;
+    }
+}
