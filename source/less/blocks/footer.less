@@ -1,0 +1,113 @@
+/*подвал*/			
+
+.page-footer .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 60px;
+	margin-bottom: 34px;
+}
+
+	.footer-nav__list {
+		display: flex;
+		flex-direction: column;
+		list-style: none;
+		margin-top: 0;
+		padding-top: 0;
+		padding-left: 0;
+	}
+
+		.footer-nav__item {
+			font-size: 13px;
+			margin-bottom: 10px;
+			padding-top: 0;	
+		}
+
+		.footer-nav__link {
+			text-decoration: none;	
+			color: @gray;
+			cursor: pointer;
+		}
+
+	.footer__social {
+		padding-right: 15px;
+	}
+
+		.footer-social__order {
+			width: 175px;
+		}
+
+		.footer-social__icons {
+			display: flex;
+			margin-top: 18px;
+			padding-left: 0;
+		}
+
+			.footer-social__icon {
+				list-style: none;
+				width: 25px;
+				height: 20px;
+				margin-right: 10px;
+				background: url('../img/social.png') no-repeat;
+				background-size: auto 20px;
+			}
+
+				.footer-social__icon:first-child {
+					background-position: 0 0; 
+				  	cursor: pointer;
+				}
+
+				.footer-social__icon:nth-child(2) {
+					background-position: -30px 0; 
+				  	cursor: pointer;
+				}
+
+				.footer-social__icon:nth-child(3) {
+					background-position: -71px 0; 
+				  	cursor: pointer;
+				}
+
+				.footer-social__icon:nth-child(4) {
+					background-position: -110px 0; 
+				  	cursor: pointer;
+				}
+
+				.footer-social__link {
+					display: block;
+					width: 40px;
+					height: 40px;
+				}
+
+	.footer__contacts {
+		padding-left: 160px;
+		padding-right: 50px;
+	}
+
+		.footer-contacts__tel, .footer-contacts__mail {
+			font-size: 18px;
+			cursor: pointer;
+		} 
+
+		.footer-contacts__tel {
+			margin-bottom: 20px;
+		}
+
+		.footer-contacts__link {
+			text-decoration: none;
+			color: @black;
+		}
+
+		.footer-contacts__tel i, .footer-contacts__mail i {
+			font-size: 14px;
+			color: @dirtypink;
+			margin-right: 25px;
+		}
+
+	.copyright {
+		background-color: @darkviolet;
+		color: @white;
+		font-size: 14px;
+		text-align: center;
+		padding-top: 20px;
+		height: 40px;
+	}

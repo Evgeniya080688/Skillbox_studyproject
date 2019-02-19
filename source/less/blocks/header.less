@@ -1,0 +1,101 @@
+/*шапка сайта с меню*/
+
+.main-header {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 35px;
+	width: 100%;
+	height: auto;
+	background-color: #fbfbfb;
+	z-index: 0;
+	overflow: hidden;
+	transition: 0.6s;
+}
+
+	.main-header .container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+		/*кнопка мобильного меню*/
+
+		.main-nav__burger {
+			display: none;
+			margin: 4px 0 0 0;
+			padding: 0;
+			width: 45px;
+			height: 40px;
+			background-color: transparent;
+			border: none;
+			transition: 0.6s;
+		}
+
+			.main-nav__burger i {	
+				display: block;
+				font-size: 35px;
+				color: @ultrapink;
+				background: linear-gradient(to top right, #ff8f5a, #ff2f96);
+			  	-webkit-background-clip: text;
+			  	-webkit-text-fill-color: transparent;
+			  	transition: 0.6s;
+			}
+
+		/*список меню*/
+
+		.main-nav__list {
+			display: flex;
+			margin: 14px 0;
+			padding-left: 0; 
+		}
+
+			.main-nav__item {
+				list-style: none;
+				font-size: 11px;
+				text-decoration: none;
+				color: @black;
+				margin-right: 20px;
+			}
+
+				.main-nav__item--active .main-nav__link {
+					color: @lightpink;
+					border-bottom: 1px solid @lightpink;
+				}
+
+				.main-nav__link {
+					text-decoration: none;
+					color: @black;
+				}
+
+		/*блок с контактами и кнопкой-заказа звонка*/		
+
+		.main-header__contacts {
+			padding: 0;
+		}
+
+		.header-contacts {
+			display: flex;	
+		}
+
+			.header-contacts__call-order {
+				margin-top: 7px;
+				width: 149px;
+			}
+
+			.header-contacts__call-order i{
+				display: none;
+				font-size: 11px;
+				background: linear-gradient(to top right, #ff8f5a, #ff2f96);
+			  	-webkit-background-clip: text;
+			  	-webkit-text-fill-color: transparent;
+			}
+
+			.header-contacts__link {
+				text-decoration: none;
+				color: @black;
+				font-size: 16px;
+				font-weight: 600;
+				line-height: 16px;
+				text-decoration: none;
+				padding-top: 0;
+				margin: 14px 38px 0 0;
+			}
