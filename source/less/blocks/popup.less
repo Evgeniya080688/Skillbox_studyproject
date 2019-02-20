@@ -1,0 +1,89 @@
+/*стили модального окна*/		
+
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	z-index: 6;
+	transition: 0.6s;
+}
+
+.popup-window {
+	display: none;
+	position: fixed;
+	margin: 150px auto;
+	padding: 20px;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 500px;
+	height: 650px;
+	background-color: @white;
+	z-index: 7;
+}
+
+.popup_img {
+	display: none;
+	position: fixed;
+	margin: 50px auto;
+	padding: 10px;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 70%;
+	height: auto;
+	background-color: @white;
+	z-index: 7;
+}
+
+.popup_img img {
+	position: relative;
+	width: 100%;
+}
+
+.img__panel {
+	display: flex;
+	justify-content: space-between;
+}
+
+.img__panel h2 {
+	margin: 0;
+	margin-bottom: 10px;
+	color: @darkgray;
+}
+
+.img__close {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: 0px;
+	font-size: 25px;
+	border: 0;
+	background: none;
+	color: @red;
+	cursor: pointer;
+}
+
+/*стили полей формы*/		
+
+fieldset {
+	border: none;
+}
+
+textarea {
+	padding: 5px;
+	background-color: @lightgray;
+	border: none;
+}
+
+input {
+	padding: 5px;
+	background-color: @lightgray;
+	border: none;
+	margin-bottom: 20px;
+}

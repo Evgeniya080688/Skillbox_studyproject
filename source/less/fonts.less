@@ -1,14 +1,29 @@
+
 @font-face {
-	font-family: Roboto;
-	src: url('../fonts/roboto/Roboto-Light.ttf');
-	src: url('../fonts/roboto/Roboto-Black.ttf');
-	src: url('../fonts/roboto/Roboto-Bold.ttf');
-	src: url('../fonts/roboto/Roboto-Medium.ttf');
-	src: url('../fonts/roboto/Roboto-Regular.ttf');
+  //насыщенность шрифта
+  font-weight: 100;
+  //начертание шрифта
+  font-style: normal;
+  //семейство шрифта
+  font-family: 'Roboto', sans-serif;
+  //способ загрузки и отображения файлов шрифтов в браузер
+  font-display: swap;
+  //путь к файлам
+  src: local(" Light"), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");
 }
 
 @font-face {
-	font-family: Roboto;
-	src: url('../fonts/roboto/Roboto-Black.ttf');
-	font-weight: 900;
-} 
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-display: swap;
+  src: local("  Medium"), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 800;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-display: swap;
+  src: local("  Bold"), url("../fonts/roboto/Roboto-Black.woff2") format("woff2"), url("../fonts/roboto/Roboto-Black.woff") format("woff");
+}

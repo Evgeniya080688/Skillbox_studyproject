@@ -53,6 +53,7 @@
     "node": "8.9"
   },
   "dependencies": {
+    "fontfaceobserver": "^2.1.0",
     "webp-converter": "^2.1.6"
   },
   "main": "gulpfile.js",
