@@ -1385,7 +1385,7 @@ input
     background-size: auto 55px;
 }
 
-.service__item::first-child::before
+.service__item:first-child::before
 {
     background-position: 0 0;
 }
@@ -1854,26 +1854,6 @@ input
         font-size: 14px;
     }
 
-    .service__item:first-child:before
-    {
-        background-position: 0 0;
-    }
-
-    .service__item:nth-child(2):before
-    {
-        background-position: -75px 0;
-    }
-
-    .service__item:nth-child(3):before
-    {
-        background-position: -150px 0;
-    }
-
-    .service__item:nth-child(4):before
-    {
-        background-position: -217px 0;
-    }
-
     /*секция с портфолио*/
 
     .portfolio
@@ -2130,6 +2110,11 @@ input
         margin-right: auto;
         margin-left: auto;
         padding: 35px auto;
+    }
+
+    .btn--send
+    {
+        width: 100%;
     }
 
     /*стиль заголовков секций*/
@@ -2401,7 +2386,7 @@ input
         margin-bottom: 15px;
     }
 
-    .service__item:before
+    .service__item::before
     {
         position: absolute;
         top: 0;
@@ -2425,17 +2410,12 @@ input
         padding-top: 17px;
     }
 
-    .service__item:nth-child(2):before
+    .service__item:nth-child(2)::before
     {
         background-position: -78px 0;
     }
 
-    .service__item:nth-child(3):before
-    {
-        background-position: -150px 0;
-    }
-
-    .service__item:nth-child(4):before
+    .service__item:nth-child(4)::before
     {
         background-position: -230px 0;
     }
@@ -2658,31 +2638,18 @@ input
         background-size: auto 30px;
     }
 
-    .footer-social__icon:first-child
-    {
-        cursor: pointer;
-
-        background-position: 0 0;
-    }
-
     .footer-social__icon:nth-child(2)
     {
-        cursor: pointer;
-
         background-position: -60px 0;
     }
 
     .footer-social__icon:nth-child(3)
     {
-        cursor: pointer;
-
         background-position: -110px 0;
     }
 
     .footer-social__icon:nth-child(4)
     {
-        cursor: pointer;
-
         background-position: -160px 0;
     }
 
@@ -2712,10 +2679,5 @@ input
     {
         width: 96%;
         padding: 5px;
-    }
-
-    .btn--send
-    {
-        width: 100%;
     }
 }

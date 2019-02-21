@@ -77,16 +77,16 @@
 			border-radius: 30px;
 			cursor: pointer;
 			z-index: 3;
-		}		
 
-			.slider-nav__btn--left {
+			&--left {
 				left: -23px;
 			}
 
-			.slider-nav__btn--right {
+			&--right {
 				right: -23px;
 				transform: rotate(180deg);
-			}	
+			}
+		}		
 
 	.portfolio__paginator {
 		width: 20%;
@@ -113,9 +113,11 @@
 				border: none;
 				border-radius: 6px;
 				cursor: pointer;
+
+				&--active {
+					background-color: @red;
+					cursor: default; 
+				}
 			}
 
-			.paginator__btn--active {
-				background-color: @red;
-				cursor: default; 
-			}
+	
