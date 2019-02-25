@@ -8,7 +8,7 @@
 
 	<!-- - Стандартный значок - -->
 	<!-- <link rel="icon" type="image/x-icon" href="/name.ico"> -->
-  <!-- - Рекомендуемый формат favicon - -->
+  	<!-- - Рекомендуемый формат favicon - -->
 	<!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
 
 	<!-- <! - Значок Apple Touch (не менее 200x200px) -> -->
@@ -21,7 +21,19 @@
 	<!-- <! - Не действует, если у вас нет предыдущего метатега -> -->
 	<!-- <meta name="apple-mobile-web-app-status-bar-style"content="black"> -->
 
-	<link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+	<!--предварительная загрузка шрифта для быстрой загрузки. Веб шрифты запрашиваются на более раннем этапе загрузки -->
+	<link rel="preload" href="../fonts/roboto/Roboto-Light.woff2" as="font" type="font/woff2" crossorigin="">
+	<link rel="preload" href="../fonts/roboto/Roboto-Light.woff" as="font" type="font/woff" crossorigin="">
+
+	<link rel="preload" href="../fonts/roboto/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin="">
+	<link rel="preload" href="../fonts/roboto/Roboto-Medium.woff" as="font" type="font/woff" crossorigin="">
+
+	<link rel="preload" href="../fonts/roboto/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin="">
+	<link rel="preload" href="../fonts/roboto/Roboto-Bold.woff" as="font" type="font/woff" crossorigin="">
+
+	<link rel="preload" href="../fonts/roboto/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin="">
+	<link rel="preload" href="../fonts/roboto/Roboto-Black.woff" as="font" type="font/woff" crossorigin="">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<script src="js/jquery-3.3.1.min.js"></script>
@@ -37,8 +49,9 @@
 	<div class="container">						
 		<nav class="main-header__nav main-nav">
 			<button class="main-nav__burger" aria-label="Burger menu">
-				<i class="fa fa-bars"></i>
-			</button>
+				<!--i class="fa fa-bars"></i-->
+				<img src="img/burger.png" alt="Мобильное меню">
+			</button>	
 
 			<ul class="main-nav__list">
 				<li class="main-nav__item">
@@ -61,7 +74,7 @@
 			</a>
 
 			<button class="btn btn--call-order header-contacts__call-order">
-				<i class="fa fa-phone"></i>Заказать звонок
+				<img src="img/call.png" alt="Телефон"> Заказать звонок
 			</button>
 		</div>		
 	</div>
@@ -108,10 +121,10 @@
 			<div class="img__panel">
 				<h2></h2>
 				<button class="img__close" aria-label="Burger menu">
-					<i class="fa fa-times"></i>
+					<img src="img/close.png" alt="Мобильное меню">
 				</button>
 			</div>	
-			<img src="img/work1.jpg" alt="Сайт психолога Веры Антоновой" title="MyJob">	
+			<img class="img__content" src="img/work1.jpg" alt="Сайт психолога Веры Антоновой" title="MyJob">	
 			<button class="img_prev"><<</button>
 			<button class="img_next">>></button>
 		</div>		
@@ -319,13 +332,13 @@
 
 			<div class="footer-contacts__tel">
 				<a class="footer-contacts__link" href="tel:+74995666655">
-					<i class="fa fa-phone"></i>+7 (499) 995-77-55
+					<img src="img/call.png" alt="Телефон">+7 (499) 995-77-55
 				</a>
 			</div>
 
 			<div class="footer-contacts__mail">
 				<a class="footer-contacts__link" href="mailto:eugeniya.pal@yandex.ru">
-					<i class="fa fa-envelope"></i>eugeniya.pal@yandex.ru
+					<img src="img/envelop.png" alt="Почта">eugeniya.pal@yandex.ru
 				</a>
 			</div>
 		</section>

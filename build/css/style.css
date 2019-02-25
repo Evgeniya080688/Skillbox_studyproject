@@ -44,7 +44,7 @@ h1
     font-style: normal;
 
     font-display: swap;
-    src: local(' Light'), url('../fonts/roboto/Roboto-Light.woff2') format('woff2'), url('../fonts/roboto/Roboto-Light.woff') format('woff');
+    src: local('Roboto-Light'), url('../fonts/roboto/Roboto-Light.woff2') format('woff2'), url('../fonts/roboto/Roboto-Light.woff') format('woff');
 }
 
 @font-face
@@ -54,7 +54,17 @@ h1
     font-style: normal;
 
     font-display: swap;
-    src: local('  Medium'), url('../fonts/roboto/Roboto-Medium.woff2') format('woff2'), url('../fonts/roboto/Roboto-Medium.woff') format('woff');
+    src: local('Roboto-Medium'), url('../fonts/roboto/Roboto-Medium.woff2') format('woff2'), url('../fonts/roboto/Roboto-Medium.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: local('Roboto-Bold'), url('../fonts/roboto/Roboto-Bold.woff2') format('woff2'), url('../fonts/roboto/Roboto-Bold.woff') format('woff');
 }
 
 @font-face
@@ -64,7 +74,7 @@ h1
     font-style: normal;
 
     font-display: swap;
-    src: local('  Bold'), url('../fonts/roboto/Roboto-Black.woff2') format('woff2'), url('../fonts/roboto/Roboto-Black.woff') format('woff');
+    src: local('Roboto-Black'), url('../fonts/roboto/Roboto-Black.woff2') format('woff2'), url('../fonts/roboto/Roboto-Black.woff') format('woff');
 }
 
 /*media*/
@@ -230,17 +240,9 @@ h1
     margin-top: 7px;
 }
 
-.header-contacts__call-order i
+.header-contacts__call-order img
 {
-    font-size: 11px;
-
     display: none;
-
-    background: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
-    background: linear-gradient(to top right, #ff8f5a, #ff2f96);
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent;
 }
 
 .header-contacts__link
@@ -1558,6 +1560,11 @@ input
     color: #000;
 }
 
+.footer-contacts__link img
+{
+    padding-right: 5px;
+}
+
 .footer-contacts__tel i,
 .footer-contacts__mail i
 {
@@ -2204,15 +2211,11 @@ input
         background-color: transparent;
     }
 
-    .header-contacts__call-order i
+    .header-contacts__call-order img
     {
-        font-size: 13px;
-
         display: block;
 
-        margin-top: auto;
-
-        color: #fa0891;
+        padding-left: 6px;
     }
 
     /*блок с банером*/

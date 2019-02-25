@@ -30,9 +30,14 @@ $(function(){
 
 	//mobile-menu
 	$('.main-nav__burger').on('click', function(event){
-		$('.main-nav__burger i').toggleClass('fa-bars');
-		$('.main-nav__burger i').toggleClass('fa-times');
 		$('.main-header').toggleClass('active');
+
+		if ($('.main-header').hasClass('active')) {
+			$('.main-nav__burger img').attr('src','img/close.png');
+		}
+		else {
+			$('.main-nav__burger img').attr('src','img/burger.png');
+		}
 
 	});
 	
@@ -153,9 +158,9 @@ $(function(){
 		var alt = $(this).attr('alt');
 		var title = $(this).attr('title');
 
-		$('.popup_img img').attr('src',src);
-		$('.popup_img img').attr('alt',alt);
-		$('.popup_img img').attr('title',title);
+		$('.popup_img .img__content').attr('src',src);
+		$('.popup_img .img__content').attr('alt',alt);
+		$('.popup_img .img__content').attr('title',title);
 
 		$('.popup_img h2').html(''+alt+'');
 
@@ -164,7 +169,7 @@ $(function(){
 	var curSlide=deepShit.currentSlide;
 	var countSlidersAll=$('.slide').length;
 
-	$('.popup_img img').on('click',function(){
+	$('.popup_img .img__content').on('click',function(){
 		var src;
 		var alt ;
 		var title;
@@ -195,9 +200,9 @@ $(function(){
 			
 		}
 
-		$('.popup_img img').attr('src',src);
-		$('.popup_img img').attr('alt',alt);
-		$('.popup_img img').attr('title',title);
+		$('.popup_img .img__content').attr('src',src);
+		$('.popup_img .img__content').attr('alt',alt);
+		$('.popup_img .img__content').attr('title',title);
 		$('.popup_img h2').html(''+alt+'');
 		
 
@@ -236,9 +241,9 @@ $(function(){
 			
 		}
 
-		$('.popup_img img').attr('src',src);
-		$('.popup_img img').attr('alt',alt);
-		$('.popup_img img').attr('title',title);
+		$('.popup_img .img__content').attr('src',src);
+		$('.popup_img .img__content').attr('alt',alt);
+		$('.popup_img .img__content').attr('title',title);
 		$('.popup_img h2').html(''+alt+'');
 			
 	});
@@ -274,9 +279,9 @@ $(function(){
 			console.log(curSlide);
 		}
 
-		$('.popup_img img').attr('src',src);
-		$('.popup_img img').attr('alt',alt);
-		$('.popup_img img').attr('title',title);
+		$('.popup_img .img__content').attr('src',src);
+		$('.popup_img .img__content').attr('alt',alt);
+		$('.popup_img .img__content').attr('title',title);
 		$('.popup_img h2').html(''+alt+'');
 		
 	});
