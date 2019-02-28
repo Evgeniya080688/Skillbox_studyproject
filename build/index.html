@@ -179,7 +179,16 @@
 				</div>
 				
 				<div class="banner__img-container">
-					<img class="banner__img" src="img/port.png" alt="Паладина Евгения - веб-верстальщик" title="MyFace">
+					<picture>
+						<source srcset="img/port.webp 1x,
+									 img/port.webp 2x" media="(min-width: 768px)" type="image/webp">
+						<source srcset="img/port.png 1x,
+						                img/port.png 2x" media="(min-width: 768px)">
+						<source scrset="img/port.webp 1x,
+										img/port.webp 2x" type="image/webp">
+						<img class="banner__img" src="img/port.png" scrset="port.png 2x" alt="Я собственной персоной">						        		
+					</picture>
+					<!--img class="banner__img" src="img/port.png" alt="Паладина Евгения - веб-верстальщик" title="MyFace"-->
 				</div>				
 			</div>	
 		</section>
