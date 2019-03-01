@@ -1319,6 +1319,7 @@ input
     bottom: 0;
     left: 10px;
 
+    width: auto;
     max-height: 450px;
 
     background-color: transparent;
@@ -1798,6 +1799,8 @@ input
 
     .banner__img-container
     {
+        overflow: visible;
+
         width: 40%;
         height: 515px;
     }
@@ -1807,7 +1810,7 @@ input
         right: 0;
         bottom: 0;
 
-        max-height: 480px;
+        max-height: 615px;
     }
 
     h1
