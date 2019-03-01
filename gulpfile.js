@@ -116,6 +116,7 @@ gulp.task("build", function (done) {
     "copy",
     "style",
     "tinypng",
+    "images",
     // "sprite",
     "html",
     done
