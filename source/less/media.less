@@ -163,14 +163,26 @@
 
 			.banner__img-container {
 				width: 40%;
-				height: 515px;
+				height: auto;
 				overflow: visible;
 			}
 
+			picture {
+				display: flex;	
+				flex-direction: column;
+				justify-content: flex-end;	
+				height: 480px;	
+				overflow: visible;	
+			}
+
 			.banner__img {
+				width: 370px;
 				max-height: 615px;
-				bottom: 0;
-				right: 0;	
+				bottom: auto;
+				top: 0px;
+				left: 0px;
+				z-index: 10;	
+				background-color: transparent;
 			}
 
 			h1 {
@@ -574,6 +586,10 @@
 				height: 370px;
 				overflow: visible;
 			}
+
+				picture {
+					height: 370px;		
+				}
 
 				.banner__img {
 					width: auto;
