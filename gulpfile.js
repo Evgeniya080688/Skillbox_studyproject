@@ -29,6 +29,15 @@ var qualityOfImage = 75;
 
 var gih = require("gulp-include-html");
 
+gulp.task('autoprefixer', function(){
+      gulp.src('build/css/*.css')
+      .pipe(autoprefixer({
+        browsers: ['last 2 versions']
+      }))
+      .pipe(gulp.dest('build/css'));
+});
+
+
 gulp.task("style", function() {
   gulp.src("source/less/style.less")
     .pipe(plumber())
@@ -118,6 +127,7 @@ gulp.task("build", function (done) {
     "tinypng",
     "images",
     // "sprite",
+    //"autoprefixer",
     "html",
     done
   );
